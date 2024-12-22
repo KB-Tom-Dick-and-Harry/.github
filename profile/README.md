@@ -57,7 +57,7 @@
 - Back End : Spring Boot(3.3.5), JWT(0.12.3), Spring Security(6.3.4), Gradle(8.10.2)
 - AI : Langchain, Chroma DB, Gpt4-o
 - 버전 관리 및 이슈 관리 : GitHub
-- 협업 툴 : Notion, Slack, Discord
+- 협업 툴 : Notion, Slack, Discord, Swagger
 - 배포 : AWS EC2
 - UI/UX : Figma
 
