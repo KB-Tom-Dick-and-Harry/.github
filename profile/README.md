@@ -58,7 +58,6 @@
 - AI : Langchain, Chroma DB, Gpt4-o
 - 버전 관리 및 이슈 관리 : GitHub
 - 협업 툴 : Notion, Slack, Discord
-- CI/CD : GitHub Actions
 - 배포 : AWS EC2
 - UI/UX : Figma
 
