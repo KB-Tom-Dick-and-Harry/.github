@@ -157,7 +157,7 @@ ex) `feature/login` : 로그인 기능 구현 브랜치
 
 ---
 
-### ✏️ 회원가입
+### 🔐 회원가입
 
 ![회원가입](https://github.com/user-attachments/assets/88af5099-fc07-4ba0-a779-8a3746760a15)
 
@@ -165,7 +165,7 @@ ex) `feature/login` : 로그인 기능 구현 브랜치
 - 서비스 이용을 위한 필수 약관 동의
 
 
-### 📎 메인 화면 - 퀴즈 시작
+### 🏠 메인 화면 - 퀴즈 시작
 
 ![메인 화면 - 퀴즈 시작](https://github.com/user-attachments/assets/592a826b-70ac-4b78-a14b-17b591f2582b)
 
@@ -176,7 +176,7 @@ ex) `feature/login` : 로그인 기능 구현 브랜치
 - 최근 거래 내역에서 최근 3건의 소비 내역을 시간순으로 표시
  
 
-### 📎 퀴즈 화면
+### 🎮 퀴즈 화면
 
 ![퀴즈 화면](https://github.com/user-attachments/assets/a2353855-a454-41f8-9674-de5061c1d96a)
 
@@ -186,7 +186,7 @@ ex) `feature/login` : 로그인 기능 구현 브랜치
 - 퀴즈 완료 시 획득한 포인트(1,000P) 표시
 
 
-### 📎 챗봇 화면
+### 🤖 챗봇 화면
 
 ![챗봇 화면](https://github.com/user-attachments/assets/018eda4d-6827-4373-98a9-1ce49e0f2820)
 
@@ -203,3 +203,11 @@ ex) `feature/login` : 로그인 기능 구현 브랜치
 CODEF API 연동 문제
 - 문제: API 호출 시 CORS 정책으로 인한 접근 제한 발생
 - 해결: Spring Security 설정에서 CORS 관련 설정 추가
+
+챗봇 답변 정확도 이슈
+- 문제: 맥락을 벗어난 응답과 부정확한 카드 추천
+- 해결: FastAPI 서버에서 답변 필터링 로직 구현
+
+퀴즈 타이머 동기화 문제
+- 문제: 퀴즈 데이터 로딩 전 타이머 시작으로 인한 오류
+- 해결: 데이터 로딩 완료 후 타이머 시작 로직 구현
